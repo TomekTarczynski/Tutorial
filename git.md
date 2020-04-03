@@ -1,6 +1,6 @@
 # GIT TUTORIAL
 
-Git command | What it does?
+<div style="width:400px">Basic command</div> | What it does?
 ------------------- | -----------------------
 `$ git init ` | Initialisation of git repository
 `$ git status` | Check whether all files are up to date with local repository
@@ -9,7 +9,7 @@ Git command | What it does?
 `$ git push -u origin master` | Pushes local repository into remote
 `$ git remote add origin <address>` | Add remote repository. Sample `<address>` could be https://github.com/TomekTarczynski/Tutorial.git
 
-Branch command | What it does?
+<div style="width:400px">Branch command</div> | What it does?
 ------------------- | -----------------------
 `$ git branch ` | Lists all available branches
 `$ git branch <branch>` | Creates new branch with name `<branch>`. It does not change the current branch
