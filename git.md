@@ -1,14 +1,12 @@
-### AAAA
+# GIT TUTORIAL
 
-## BBBB
+Initialisation of git repository
+```git
 
-# CCCC
-
+$ git init
 ```
 
-$ cd dillinger
-$ npm install -d
-
-$ node app
-
+Checking whether all files are up to date with local repository
+```
+$ git status
 ```
