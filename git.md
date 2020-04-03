@@ -54,6 +54,6 @@ defc4eb HEAD@{3}: commit: 2nd git commit: 2 files
 To revert the 3rd commit (basically remove the file charlie.html') we need to:
 ```$ git revert 4945db2```
 
-Here are few other examples:
-`$ git revert HEAD` - reverses last commit
-`$ git revert HEAD~3` - reverses 4th last commit
+Here are few other examples:  
+`$ git revert HEAD` - reverses last commit  
+`$ git revert HEAD~3` - reverses 4th last commit  
