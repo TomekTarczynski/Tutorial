@@ -17,6 +17,16 @@ Branch command | What it does?
 `$ git branch -D <branch>` | Force delete the specified branch, even if it has unmerged changes. 
 `$ git branch -m <branch>` | Rename the current branch to `<branch>`.
 `$ git branch -a` | List all remote branches
+`$ git checkout <branch>` | Switches to branch to `<branch>`
+
+Update command | What it does
+---------------- | -----------------------------or
+`git fetch <remote>` | Fetch all of the branches from the repository. This also downloads all of the required commits and files from the other repository.
+`git fetch --dry-run` | The --dry-run option will perform a demo run of the command. It will output examples of actions it will take during the fetch but not apply them.
+
+The git fetch command downloads commits, files, and refs from a remote repository into your local repo. It doesn’t force you to actually merge the changes into your repository. Git isolates fetched content as a from existing local content, it has absolutely no effect on your local development work. 
+git pull is the more aggressive alternative, it will download the remote content for the active local branch and immediately execute git merge to create a merge commit for the new remote content. 
+
 
 ### How to reverse a commit?
 `$ git revert` reverses a single commit and keep all the other ones. It is not removed from the history, a new commit is added which make changes as the reverted commit was never done although it is still part of the commit history. An example:
@@ -51,8 +61,8 @@ defc4eb HEAD@{3}: commit: 2nd git commit: 2 files
 2938ee3 HEAD@{4}: commit: 1st git commit: 1 file
 ```
 
-To revert the 3rd commit (basically remove the file charlie.html') we need to:
-```$ git revert 4945db2```
+To revert the 3rd commit (basically remove the file charlie.html) we need to:  
+`$ git revert 4945db2`
 
 Here are few other examples:  
 `$ git revert HEAD` - reverses last commit  
