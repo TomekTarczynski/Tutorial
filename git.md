@@ -6,11 +6,9 @@ Git command | What it does?
 `$ git status` | Check whether all files are up to date with local repository
 `$ git add <file>` | Adds file to local staging. Files needs to be added to staging before a commit
 `$ git commit -m <message>` | Commits all files in staging into local repository
-`$ git remote add origin <address>` | Add remote repository. Sample `<address>` could be https://github.com/TomekTarczynski/Tutorial.git
-
-Clone command | What id does?
--------------- | -----------------
 `$ git clone <url> <dir>` | Copy remote repositority from `<url>` into folder `<dir>`. To copy into current folder use `.` as `<dir>`. Only the branch to which `HEAD` is pointing is cloned. It automatically creates remote repository with name `origin` that points to `<url>`. All other branches can be seen by using `$ git branch -a`. To create local copy of other branches `$ git checkout <branch>` must be used.
+`$ git merge <branch>` | Git merges current branch with the branch `<branch>`
+
 
 Remote command | What it does?
 ------------------ | ---------------------------
