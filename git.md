@@ -6,8 +6,24 @@ Git command | What it does?
 `$ git status` | Check whether all files are up to date with local repository
 `$ git add <file>` | Adds file to local staging. Files needs to be added to staging before a commit
 `$ git commit -m <message>` | Commits all files in staging into local repository
-`$ git push -u origin master` | Pushes local repository into remote
 `$ git remote add origin <address>` | Add remote repository. Sample `<address>` could be https://github.com/TomekTarczynski/Tutorial.git
+
+Clone command | What id does?
+-------------- | -----------------
+`$ git clone <url> <dir>` | Copy remote repositority from `<url>` into folder `<dir>`. To copy into current folder use `.` as `<dir>`. Only the branch to which `HEAD` is pointing is cloned. It automatically creates remote repository with name `origin` that points to `<url>`. All other branches can be seen by using `$ git branch -a`. To create local copy of other branches `$ git checkout <branch>` must be used.
+
+Remote command | What it does?
+------------------ | ---------------------------
+`$ git remote -v` | List all remote repositories together with URL
+`$ git remote add <repo> <url>` | Create a new connection to a remote repository at url address `<url>`. Locally the name of this remote repository will be `<repo>`
+`$ git remote rename <old-name> <new-name>` | Rename the remote repository from `<old-name>` into `<new-name>`
+
+Upload command | What it does?
+------------------ | ---------------------------
+`$ git push <repo> <branch>` | Pushes branch <branch> from local repository into remote repository <repo>
+`$ git push --all <repo>` | Pushes all local branches into remote repository <repo>
+`$ git push --force-with-lease <repo> <branch>` | Works like regular push, but first git verifies whether your copy of remote branch is up to date
+
 
 Branch command | What it does?
 ------------------- | -----------------------
@@ -67,3 +83,5 @@ To revert the 3rd commit (basically remove the file charlie.html) we need to:
 Here are few other examples:  
 `$ git revert HEAD` - reverses last commit  
 `$ git revert HEAD~3` - reverses 4th last commit  
+
+
