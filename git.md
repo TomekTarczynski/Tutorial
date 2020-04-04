@@ -2,7 +2,6 @@
 
 Git command | What it does?
 ------------------- | -----------------------
-<img width=800/>|<img width=200/>
 `$ git init ` | Initialisation of git repository
 `$ git status` | Check whether all files are up to date with local repository
 `$ git add <file>` | Adds file to local staging. Files needs to be added to staging before a commit
@@ -10,6 +9,7 @@ Git command | What it does?
 `$ git clone <url> <dir>` | Copy remote repositority from `<url>` into folder `<dir>`. To copy into current folder use `.` as `<dir>`. Only the branch to which `HEAD` is pointing is cloned. It automatically creates remote repository with name `origin` that points to `<url>`. All other branches can be seen by using `$ git branch -a`. To create local copy of other branches `$ git checkout <branch>` must be used.
 `$ git merge <branch>` | Git merges current branch with the branch `<branch>`
 
+-------------------------------------
 
 Remote command | What it does?
 ------------------ | ---------------------------
