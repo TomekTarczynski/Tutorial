@@ -2,7 +2,7 @@
 
 Git command | What it does?
 ------------------- | -----------------------
-<img width=500/>|<img width=200/>
+<img width=800/>|<img width=200/>
 `$ git init ` | Initialisation of git repository
 `$ git status` | Check whether all files are up to date with local repository
 `$ git add <file>` | Adds file to local staging. Files needs to be added to staging before a commit
