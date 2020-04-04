@@ -2,6 +2,7 @@
 
 Git command | What it does?
 ------------------- | -----------------------
+<img width=200/>|<img width=200/>
 `$ git init ` | Initialisation of git repository
 `$ git status` | Check whether all files are up to date with local repository
 `$ git add <file>` | Adds file to local staging. Files needs to be added to staging before a commit
@@ -27,7 +28,7 @@ Branch command | What it does?
 ------------------- | -----------------------
 `$ git branch ` | Lists all available branches
 `$ git branch <branch>` | Creates new branch with name `<branch>`. It does not change the current branch
-`$ git branch -d <branch>` | Delete the specified branch. This is a ìsafeî operation in that Git prevents you from deleting the branch if it has unmerged changes.
+`$ git branch -d <branch>` | Delete the specified branch. This is a ‚Äúsafe‚Äù operation in that Git prevents you from deleting the branch if it has unmerged changes.
 `$ git branch -D <branch>` | Force delete the specified branch, even if it has unmerged changes. 
 `$ git branch -m <branch>` | Rename the current branch to `<branch>`.
 `$ git branch -a` | List all remote branches
@@ -35,7 +36,7 @@ Branch command | What it does?
 
 Download command | What it does
 ---------------- | -----------------------------
-`$ git fetch <remote>` | Fetch all of the branches from the repository. This also downloads all of the required commits and files from the other repository.  It doesnít force you to actually merge the changes into your repository. Git isolates fetched content as a from existing local content, it has absolutely no effect on your local development work.
+`$ git fetch <remote>` | Fetch all of the branches from the repository. This also downloads all of the required commits and files from the other repository.  It doesn‚Äôt force you to actually merge the changes into your repository. Git isolates fetched content as a from existing local content, it has absolutely no effect on your local development work.
 `$ git fetch --dry-run` | The --dry-run option will perform a demo run of the command. It will output examples of actions it will take during the fetch but not apply them.
 `$ git pull <remote>` | `git pull` is the more aggressive alternative, it will download the remote content for the active local branch and immediately execute git merge to create a merge commit for the new remote content. 
 
