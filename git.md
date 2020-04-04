@@ -17,12 +17,15 @@ Remote command | What it does?
 `$ git remote add <repo> <url>` | Create a new connection to a remote repository at url address `<url>`. Locally the name of this remote repository will be `<repo>`
 `$ git remote rename <old-name> <new-name>` | Rename the remote repository from `<old-name>` into `<new-name>`
 
+-------------------------------------
+
 Upload command | What it does?
 ------------------ | ---------------------------
 `$ git push <repo> <branch>` | Pushes branch <branch> from local repository into remote repository <repo>
 `$ git push --all <repo>` | Pushes all local branches into remote repository <repo>
 `$ git push --force-with-lease <repo> <branch>` | Works like regular push, but first git verifies whether your copy of remote branch is up to date
 
+-------------------------------------
 
 Branch command | What it does?
 ------------------- | -----------------------
@@ -34,12 +37,15 @@ Branch command | What it does?
 `$ git branch -a` | List all remote branches
 `$ git checkout <branch>` | Switches to branch to `<branch>`
 
+-------------------------------------
+
 Download command | What it does
 ---------------- | -----------------------------
 `$ git fetch <remote>` | Fetch all of the branches from the repository. This also downloads all of the required commits and files from the other repository.  It doesn’t force you to actually merge the changes into your repository. Git isolates fetched content as a from existing local content, it has absolutely no effect on your local development work.
 `$ git fetch --dry-run` | The --dry-run option will perform a demo run of the command. It will output examples of actions it will take during the fetch but not apply them.
 `$ git pull <remote>` | `git pull` is the more aggressive alternative, it will download the remote content for the active local branch and immediately execute git merge to create a merge commit for the new remote content. 
 
+-------------------------------------
 
 ### How to reverse a commit?
 `$ git revert` reverses a single commit and keep all the other ones. It is not removed from the history, a new commit is added which make changes as the reverted commit was never done although it is still part of the commit history. An example:
