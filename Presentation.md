@@ -30,6 +30,43 @@
 	- data markers
 	- decimal places
 
+ **[Gestalt laws of grouping](https://en.wikipedia.org/wiki/Principles_of_grouping)**
+
+
+<table>
+<thead>
+	<tr>
+		<th>Law</th>
+		<th>Image</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Proximity - Elements close to each other form a group</td>
+		<td><img src="https://uploads.toptal.io/blog/image/125751/toptal-blog-image-1522045543251-5aab914f146872587eaadc733b640512.png" width="500"/></td>
+	</tr>
+	<tr>
+		<td>Similarity - Similar elements form a group</td>
+		<td><img src="https://uploads.toptal.io/blog/image/125748/toptal-blog-image-1522045521325-bdf8cf6d811519a60d995d009599494e.png" width="500"/></td>
+	</tr>
+	<tr>
+		<td>Common region - Elements on common region form a group</td>
+		<td><img src="https://miro.medium.com/max/1000/1*TETGzKED0Yh9_O0Y2TWl6A.png" width="500"/></td>
+	</tr>
+	<tr>
+		<td>Continuity - Elements that are continuation of each other form a group</td>
+		<td><img src="https://s3-us-west-2.amazonaws.com/courses-images-archive-read-only/wp-content/uploads/sites/902/2015/02/23224746/CNX_Psych_05_06_Continuity.jpg" width="500"/></td>
+	</tr>
+	<tr>
+		<td>Closure - Elements that form a known shape will be perceived as a group even if some of them are missing</td>
+		<td><img src="https://s3-us-west-2.amazonaws.com/courses-images-archive-read-only/wp-content/uploads/sites/902/2015/02/23224747/CNX_Psych_05_06_Closure.jpg" width="500"/></td>
+	</tr>
+</tbody>
+</table>
+
+Example 
+* By setting proper spaces between column and rows we might indicate whether data should be read by columns (big spaces between columns) or by rows (big spaces between rows)
+
 
 **Exercises to make after the presentation is made:**
 
