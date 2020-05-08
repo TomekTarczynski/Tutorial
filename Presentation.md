@@ -64,6 +64,32 @@
 </tbody>
 </table>
 
+**Pre-attentive processing** 
+
+This is the subconscious accumulation of information from the environment. People are processing such information first and due to that it is easy to manage their attention in the way we want: Here are some examples
+
+<p align="center">
+<img src="https://miro.medium.com/max/1400/1*3HMzLiq82OokIXkFx8QEug.png">
+</p>
+
+**Legends**
+
+* If possible try to use direct legend
+
+<p align="center">
+<img src="https://www.goodly.co.in/wp-content/uploads/2015/08/How-to-Add-Legends-to-the-Chart-5.png">
+</p>
+
+**Highlighting**
+
+* If one of the categories is the most important then highlight it with a color and change the color of all others into grey
+
+<p align="center">
+<img src="https://exceloffthegrid.com/wp-content/uploads/2017/03/Automatically-update-bar-chart-final.png">
+</p>
+
+
+
 Example 
 * By setting proper spaces between column and rows we might indicate whether data should be read by columns (big spaces between columns) or by rows (big spaces between rows)
 
