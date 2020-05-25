@@ -82,7 +82,7 @@ This is the subconscious accumulation of information from the environment. Peopl
 
 **Highlighting**
 
-* If one of the categories is the most important then highlight it with a color and change the color of all others into grey
+* If one of the categories is the most important then highlight it with a color and change the color of all others into gray
 
 <p align="center">
 <img src="https://exceloffthegrid.com/wp-content/uploads/2017/03/Automatically-update-bar-chart-final.png">
